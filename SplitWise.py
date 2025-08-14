@@ -102,7 +102,7 @@ ax.bar([i + 0.2 for i in x], valori_delia, width=0.4, color='pink', label="Delia
 ax.set_xticks(x)
 ax.set_xticklabels(etichette, rotation=45, ha="right")
 ax.set_ylabel("Spesa (€)")
-ax.set_title("📊 Spese a confronto")
+ax.set_title("Spese a confronto")
 ax.legend()
 ax.grid(axis='y', linestyle='--', alpha=0.7)
 
@@ -140,3 +140,4 @@ for persona in ["giulio", "delia"]:
             st.session_state[persona][nuova_categoria] = nuovo_valore
             salva_dati()
             st.rerun()
+
