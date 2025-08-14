@@ -97,8 +97,8 @@ valori_delia = [
 
 x = range(len(etichette))
 fig, ax = plt.subplots()
-ax.bar([i - 0.2 for i in x], valori_giulio, width=0.4, color='skyblue', label="Giulio")
-ax.bar([i + 0.2 for i in x], valori_delia, width=0.4, color='pink', label="Delia")
+ax.bar([i - 0.2 for i in x], valori_giulio, width=0.4, color='darkorange', label="Giulio")
+ax.bar([i + 0.2 for i in x], valori_delia, width=0.4, color='mediumaquamarine', label="Delia")
 ax.set_xticks(x)
 ax.set_xticklabels(etichette, rotation=45, ha="right")
 ax.set_ylabel("Spesa (€)")
